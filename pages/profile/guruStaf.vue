@@ -5,8 +5,7 @@
                 <div class=" col-6 col-sm-3">
                     <div class="card card-total rounded-4">
                         <div class="card-body">
-                            <!-- <img src="../assets/img/icon-tjkt.png" alt="img" class="mt-5"> -->
-                            <h5 class="fw-semibold">80 Orang</h5>
+                            <h5 class="fw-semibold">82 Orang</h5>
                             <p>Total Guru / Pendidik</p>
                         </div>
                     </div>
@@ -14,7 +13,6 @@
                 <div class="col-6 col-sm-3">
                     <div class="card card-total rounded-4">
                         <div class="card-body">
-                            <!-- <img src="../assets/img/icon-tjkt.png" alt="img" class="mt-5"> -->
                             <h5 class="fw-semibold">5 Orang</h5>
                             <p>Total Guru BP / BK</p>
                         </div>
@@ -23,8 +21,7 @@
                 <div class="col-6 col-sm-3">
                     <div class="card card-total rounded-4">
                         <div class="card-body">
-                            <!-- <img src="../assets/img/icon-tjkt.png" alt="img" class="mt-5"> -->
-                            <h5 class="fw-semibold">15 Orang</h5>
+                            <h5 class="fw-semibold">10 Orang</h5>
                             <p>Total Staf TU</p>
                         </div>
                     </div>

@@ -22,20 +22,20 @@
                         <h5 class="mt-5">Media <span class="text-primary">Sosial</span></h5> 
                         <hr>
                         <div class="d-flex sosmed">
-                            <i class="bi bi-facebook"></i>
+                            <a href="https://www.facebook.com/4smkn/" target="_blank"><i class="bi bi-facebook"></i></a>
                             <i class="bi bi-instagram"></i>
                             <i class="bi bi-twitter-x"></i>
-                            <i class="bi bi-youtube"></i>
+                            <a href="https://www.youtube.com/@smkn4tasikmalayamediaoffic704" target="_blank"><i class="bi bi-youtube"></i></a>
                         </div>               
                     </div>
                     <div class="col-2">
                         <h5>Link <span class="text-primary">Lainnya</span></h5>
                         <hr>
                         <ul class="list-group">
-                            <li class="list-group-item">Kemdikbud</li>
-                            <li class="list-group-item">Dapodiknasmen</li>
-                            <li class="list-group-item">PSMK</li>
-                            <li class="list-group-item">Disdik Jabar</li>
+                            <li class="list-group-item"><a href="https://www.kemdikbud.go.id/" target="_blank">Kemdikbud</a></li>
+                            <li class="list-group-item"><a href="https://dapo.dikdasmen.kemdikbud.go.id/" target="_blank">Dapodiknasmen</a></li>
+                            <li class="list-group-item"><a href="https://psmk.kemdikbud.go.id/" target="_blank">PSMK</a></li>
+                            <li class="list-group-item"><a href="https://disdik.jabarprov.go.id/" target="_blank">Disdik Jabar</a></li>
                         </ul>
                     </div>
                 </div>
@@ -83,6 +83,12 @@ i {
 
 .one hr {
     width: 80%;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none;
+
 }
 
 /* .card {

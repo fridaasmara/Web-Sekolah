@@ -2,32 +2,44 @@
     <div class="container">
         <h4 class="mt-5">Prestasi</h4>
         <div class="row mt-5 justify-content-center">
-                <div class="col-10 col-md-5">
-                    <div class="card rounded-4">
-                        <img src="~/assets/img/school.jpeg" class="card-img-top p-2 rounded-4" alt="img-artikel">
-                        <div class="card-body">
-                            <p class="text-end">20 Desember 2024</p>
-                            <h5 class="text-center mt-1">Prestasi 1</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-10 col-md-5">
-                    <div class="card rounded-4">
-                        <img src="~/assets/img/school.jpeg" class="card-img-top p-2 rounded-4" alt="img-artikel">
-                        <div class="card-body">
-                            <p class="text-end">20 Desember 2024</p>
-                            <h5 class="text-center mt-1">Pretasi 2</h5>
-                        </div>
+            <div class="col-md-3">
+                <div class="card rounded-4">
+                    <img src="~/assets/img/prestasi/lksotomotif.jpg" class="card-img-top p-2 rounded-4" alt="img-artikel">
+                    <div class="card-body text-center p-2 mt-1 mb-2">
+                        <h5 class="mt-3">Juara 1</h5>
+                        <p class="mt-3 fw-normal">LKS Otomotif Tingkat Kota Tasikmalaya Bidang Lomba Motorcyrcle Repair & Maintenance</p>
                     </div>
                 </div>
             </div>
+            <div class="col-md-3">
+                <div class="card rounded-4">
+                    <img src="~/assets/img/prestasi/silatpd.jpg" class="card-img-top p-2 rounded-4" alt="img-artikel">
+                    <div class="card-body text-center p-2 mt-1 mb-2">
+                        <h5 class="mt-3">Juara Umum 2</h5>
+                        <p class="mt-3 fw-normal">Tingkat SLTA Pada Kejuaraan Silat Perisai Diri Wali Kota Tasikmalaya Cup Tahun 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card rounded-4">
+                    <img src="~/assets/img/prestasi/02snatletik.jpg" class="card-img-top p-2 rounded-4" alt="img-artikel">
+                    <div class="card-body text-center p-2 mt-1 mb-2">
+                        <h5 class="mt-3">Juara 3</h5>
+                        <p class="mt-3 fw-normal">Atletik (Panca Lomba) Putra O2SN SMK Tingkat Jawa Barat 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 <style scoped>
 .card-img-top {
     width: 100%;
-    height: 250px;
+    height: 240px;
+    object-fit: cover; /* Menyesuaikan gambar dengan ukuran card */
+    object-position: center; /* Fokus gambar di tengah */
+
 }
 
 .card {
@@ -42,6 +54,11 @@ h4, h5, p {
 
 h4 {
     margin-left: 95px;
+}
+
+p {
+    font-size: 15px;
+
 }
 
 

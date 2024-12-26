@@ -2,7 +2,7 @@
     <div class="container">
         <h4 class="mt-5">Identitas <br> <span class="text-primary"> Kepala Sekolah</span></h4>
         <div class="text-center">
-            <img src="~/assets/img/kepala-sekolah.png" alt="logo" class="mt-5 bg-primary rounded">
+            <img src="~/assets/img/kepalasekolah.png" alt="logo" class="mt-5 bg-primary rounded shadow">
         </div>
         <div class="card shadow small mt-5">
             <!-- <div class="table-responsive"> -->

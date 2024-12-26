@@ -21,15 +21,17 @@
             <div class="card bg-light">
                 <div class="container mb-5">
                     <h4 class="mt-5">Sambutan <br> <span class="text-primary">Kepala Sekolah</span></h4>
-                    <div class="row mt-5 justify-content-center">
+                    <div class="row sambutan mt-5 justify-content-center">
                         <div class="col-5">
                             <h3>Kurniawan S.Pd, M.Pd</h3>
-                            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. In molestiae natus cumque odit doloremque atque a iste? Dolor iure eius asperiores nobis eum modi in perferendis, libero, expedita facilis repellendus?</p>
-                            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. In molestiae natus cumque odit doloremque atque a iste? Dolor iure eius asperiores nobis eum modi in perferendis, libero, expedita facilis repellendus?</p>
+                            <p class="mt-4">Assalamualaikum Warahmatullahi Wabarakatuh</p>
+                            <p class="mt-4">Segala puji dan syukur kita panjatkan kehadirat Allah SWT, semoga kita semua ada dalam lindungan-Nya. Dan atas perkenan-Nya pula kami dapat menghadirkan website SMK Negeri 4 Tasikmalaya ini. Kami berharap dengan adanya website di SMK Negeri 4 Tasikmalaya ini para pengunjung dapat mengenal lebih jauh tentang sekolah kami sehingga dapat mempererat tali silaturrahmi antara sekolah dengan masyarakat demi kemajuan kita bersama. Tiada gading yang tak retak, website kami ini masih dalam proses pengembangan, masih banyak kekurangan yang harus kami perbaiki. Kritik dan sarannya yang membangun sangat kami harapkan untuk pengembangan ke depan.</p>
+                            <p class="mt-4">Akhirnya, saya mengucapkan terimakasih yang sebesar-besarnya kepada semua pihak yang tidak dapat disebutkan satu segala bantuan dan persatu atas fasilitasnya yang telah diberikan semoga semua yang kita lakukan bermanfaat bagi masyarakat.</p>
+                            <p class="mt-4">Wassalamu'alaikum Warahmatullahi Wabarakatuh.</p>
                         </div>
                         <div class="col-5">
-                            <div class="card card-img bg-primary justify-content-center">
-                                <img src="../assets/img/kepala-sekolah.png" alt="img">
+                            <div class="card card-img bg-primary justify-content-center shadow">
+                                <img src="../assets/img/kepalasekolah.png" alt="kepsek">
                             </div>
                         </div>  
                     </div>
@@ -37,43 +39,44 @@
             </div>
 
         <!--Konsentrasi Keahlian-->
+        <div class="bg">
             <div class="container">
-                <h4 class="mt-5">Konsentrasi <br> <span class="text-primary">Keahlian</span></h4>
+                <h4 class="">Konsentrasi <br> <span class="text-primary">Keahlian</span></h4>
                 <div class="flex-container mt-5">
                     <div class="row">
                         <div class="card rounded-4">
                             <div class="card-body">
-                                <img src="../assets/img/icon-tjkt.png" alt="img" class="mt-5">
+                                <img src="../assets/img/icon/icon-tjkt.png" alt="img" class="mt-5">
                                 <h5 class="fw-semibold">TJKT</h5>
                                 <p>Teknik Jaringan, Komputer dan Telekomunikasi</p>
                             </div>
                         </div>
                         <div class="card rounded-4">
                             <div class="card-body">
-                                <img src="../assets/img/icon-pplg.png" alt="img" class="mt-5">
+                                <img src="../assets/img/icon/icon-pplg.png" alt="img" class="mt-5">
                                 <h5 class="fw-semibold">PPLG</h5>
                                 <p>Pengembangan Perangkat Lunak dan Gim</p>
                             </div>
                         </div>
                         <div class="card rounded-4">
                             <div class="card-body">
-                                <img src="../assets/img/icon-tbsm.png" alt="img" class="mt-5">
+                                <img src="../assets/img/icon/icon-tbsm.png" alt="img" class="mt-5">
                                 <h5 class="fw-semibold">TBSM</h5>
                                 <p>Teknik dan Bisnis Sepeda Motor</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mb-5">
                         <div class="card rounded-4">
                             <div class="card-body">
-                                <img src="../assets/img/icon-dkv.png" alt="img" class="mt-5">
+                                <img src="../assets/img/icon/icon-dkv.png" alt="img" class="mt-5">
                                 <h5 class="fw-semibold">DKV</h5>
                                 <p>Desain Komunikasi Visual</p>
                             </div>
                         </div>
                         <div class="card rounded-4">
                             <div class="card-body">
-                                <img src="../assets/img/icon-toi.png" alt="img" class="mt-5">
+                                <img src="../assets/img/icon/icon-toi.png" alt="img" class="mt-5">
                                 <h5 class="fw-semibold">TOI</h5>
                                 <p>Teknik Otomasi Industri</p>
                             </div>
@@ -81,37 +84,41 @@
                     </div>
                 </div>
             </div>
+        </div>
+            
 
-        <!--Artikel-->
+        <!--Berita-->
         <div class="container">
-            <h4 class="mt-5">Artikel <br> <span class="text-primary">Terbaru</span></h4>
-            <span class="text-artikel">
+            <h4 class="mt-5">Berita <br> <span class="text-primary">Terbaru</span></h4>
+            <span class="text-berita">
                 <p class="mt-3">Berita terbaru, cerita inspiratif dan informasi terkini seputar kegiatan serta prestasi sekolah kami.</p>
             </span>
-            <div class="row artikel justify-content-center">
+            <div class="row berita justify-content-center">
                 <div class="col-5">
                     <div class="card rounded-4">
-                        <img src="~/assets/img/school.jpeg" class="card-img-top p-2 rounded-4" alt="img-artikel">
+                        <img src="~/assets/img/artikel/iduka.jpg" class="card-img-top p-2 rounded-4" alt="img-artikel">
                         <div class="card-body">
-                            <p class="text-end">20 Desember 2024</p>
+                            <p class="text-end">Kamis, 12 Okt 2023</p>
                             <h5 class="text-center mt-1">SMKN 4 Tasikmalaya Koneksikan Iduka dengan Pencari Kerja</h5>
-                            <p class="mt-4">Baca Selengkapnya <span><i class="bi bi-arrow-right-circle text-black"></i></span></p>
+                            <a href="https://radartasik.id/2023/10/12/smkn-4-tasikmalaya-koneksikan-iduka-dengan-pencari-kerja/" target="_blank"><p class="mt-4">Baca Selengkapnya <span><i class="bi bi-arrow-right-circle text-black"></i></span></p>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-5">
                     <div class="card rounded-4">
-                        <img src="~/assets/img/school.jpeg" class="card-img-top p-2 rounded-4" alt="img-artikel">
+                        <img src="~/assets/img/artikel/expocreannnova.jpg" class="card-img-top p-2 rounded-4" alt="img-artikel">
                         <div class="card-body">
-                            <p class="text-end">20 Desember 2024</p>
-                            <h5 class="text-center mt-1">SMKN 4 Tasikmalaya Koneksikan Iduka dengan Pencari Kerja</h5>
-                            <p class="mt-4">Baca Selengkapnya <span><i class="bi bi-arrow-right-circle text-black"></i></span></p>
+                            <p class="text-end">Senin 27 Feb 2023</p>
+                            <h5 class="text-center mt-1">Siswa SMKN 4 Tasikmalaya Adu Inovasi dan Kreativitas di Expo Creanova</h5>
+                            <a href="https://radartasik.id/2023/03/02/siswa-smkn-4-tasikmalaya-adu-inovasi-dan-kreativitas-di-expo-creanova/" target="_blank"><p class="mt-4">Baca Selengkapnya <span><i class="bi bi-arrow-right-circle text-black"></i></span></p>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-5">
-                <button class="btn btn-primary shadow">Artikel Lainnya</button>
+                <nuxt-link to="../berita" class="btn btn-primary shadow text-light">Berita Lainnya</nuxt-link>
             </div>
         </div>
         
@@ -121,9 +128,29 @@
 <style scoped>
 .carousel {
     background-image: url('../assets/img/school.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     width: 100%;
+}
+
+/* .carousel img {
+    width: 80%;
+} */
+
+.bg {
+    background-image: url('../assets/img/background-transformed.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 5rem;
+    width: 100%;
+}
+
+.container {
+    padding-top: 0; /* Optional: Adjust padding if needed */
 }
 
 .col {
@@ -145,7 +172,6 @@ h1 {
 
 h6, h5, h4, h3, p, .btn {
     font-family: "Poppins", serif;
-
 }
 
 h5 {
@@ -163,9 +189,9 @@ i {
     margin-left: 100px;
 }
 
-img {
+/* img {
     width: 200px;
-}
+} */
 
 h4 {
     margin-left: 95px;
@@ -177,9 +203,13 @@ h4 {
     margin-left: 70px;
 }
 
+.sambutan p {
+    font-size: 13px;
+}
+
 .card-img img {
     width: 95%;
-    margin-bottom: 40px;
+    margin-bottom: 58px;
 }
 
 .card-item .card {
@@ -202,8 +232,8 @@ h4 {
 
 .flex-container .card {
     background-color: transparent;
-    backdrop-filter: blur(20px);
-    border: 1px solid #ffff;
+    backdrop-filter: blur(5px);
+    border: 3px solid #ffff;
     /* padding: 20px; */
     text-align: center;
     flex: 1; /* Cards take equal space */
@@ -223,7 +253,7 @@ h4 {
     width: 80px;
 }
 
-.text-artikel p {
+.text-berita p {
     margin-left: 95px;
     max-width: 30%;
 }
@@ -240,10 +270,20 @@ h4 {
     height: 250px;
 }
 
-.artikel .card {
+.berita .card {
     background-color: transparent;
     backdrop-filter: blur(20px);
     border: 2px solid #ffff;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.btn {
+    color: #ffff !important;
+    width: 150px;
 }
 
 </style>

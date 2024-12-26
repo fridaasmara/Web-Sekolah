@@ -39,15 +39,16 @@
                             Kesiswaan
                         </a>
                         <ul class="dropdown-menu">
+                            <li><nuxt-link to="/kesiswaan/rombel" class="dropdown-item">Rombongan Belajar</nuxt-link></li>
                             <li><nuxt-link to="/kesiswaan/organisasi" class="dropdown-item">Organisasi</nuxt-link></li>
                             <li><nuxt-link to="/kesiswaan/ekskul" class="dropdown-item">Ekstrakurrikuler</nuxt-link></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <nuxt-link to="/sapras" class="nav-link" aria-current="page" href="#">Sapras</nuxt-link>
+                        <nuxt-link to="/galeri" class="nav-link" aria-current="page">Galeri</nuxt-link>
                     </li>
                     <li class="nav-item">
-                        <nuxt-link to="/artikel" class="nav-link" aria-current="page">Artikel</nuxt-link>
+                        <nuxt-link to="/berita" class="nav-link" aria-current="page">Berita</nuxt-link>
                     </li>
                 </ul>
             </div>
