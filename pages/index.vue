@@ -1,31 +1,6 @@
 <template>
     <div class="container-fluid p-0">
 
-        <!-- <div class="Hero">
-            <img src="../assets/img/school.jpeg" alt="" class="Hero_img">
-            <div class="Hero_text">
-                <h1>Selamat datang di Website Resmi</h1>
-                <h1 class="">SMK Negeri 4 Tasikmalaya</h1>
-                <div class="d-flex info">
-                    <h5>Informasi Sekolah</h5>
-                    <i class="bi bi-arrow-right"></i>
-                </div>
-                
-            </div>
-        </div> -->
-
-        <!--Carousel-->
-        <!-- <div class="carousel">
-            <div class="row"> -->
-                <!-- <h1>Selamat datang di Website Resmi</h1> -->
-                <!-- <h1 class="">SMK Negeri 4 Tasikmalaya</h1> -->
-                <!-- <div class="col"> -->
-                    <!-- <div class="" style="padding: 0 !important;"> -->
-                    <!-- </div> -->
-                <!-- </div> -->
-            <!-- </div>
-        </div> -->
-
         <!--Carousel-->
         <div class="carousel p-3 diagonal-bg">
             <div class="row align-items-center">
@@ -38,19 +13,6 @@
                 </div>
             </div>
         </div>
-
-
-        <!-- <div class="carousel p-5">
-            <div class="row">
-                <div class="col-7">
-                    <h1>Sekolah Menengah Kejuruan <br> <span class="text-primary">Pusat Keunggulan</span></h1>
-                    <button class="btn btn-primary">Informasi Sekolah</button>
-                </div>
-                <div class="col-3">
-                    <img src="../assets/img/student.png" alt="">
-                </div>
-            </div>
-        </div> -->
 
         <!--Data-->
             <div class="row data m-4 justify-content-center">
@@ -216,57 +178,10 @@
   z-index: 1;
 }
 
-/* .carousel {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-}
-
-.carousel::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to top left, rgb(0, 51, 102) 50%, transparent 50%);
-  z-index: 1;
-} */
-
-.Hero{
-    width: 100%;
-    height: 500px;
-}
-
-.Hero_img{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.Hero_text{
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin-top: 50px;
-    z-index: 1;
-    /* line-height: ; */
-}
-
 .carousel img {
     width: 450px;
 }
 
-/* .carousel {
-    background-image: url('../assets/img/school.jpeg');
-    height: 500px;
-    max-width: 100%;
-} */
-
-/* .carousel img {
-    width: 80%;
-} */
 
 .bg {
     background-image: url('../assets/img/background-transformed.png');

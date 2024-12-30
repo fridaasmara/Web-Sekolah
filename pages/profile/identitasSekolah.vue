@@ -5,55 +5,53 @@
                 <img src="~/assets/img/LOGO-SMK4.png" alt="logo" class="mt-4">
             </div>
             <div class="card bg-light shadow rounded-4 mt-5">
-                <!-- <div class="table-responsive"> -->
-                    <table class="table m-3">
-                        <tbody>
-                            <td>Nama Sekolah</td>
-                            <td>:</td>
-                            <td>SMK Negeri 4 Kota Tasikmalaya</td>
-                        </tbody>
-                        <tbody>
-                            <td>NPSN</td>
-                            <td>:</td>
-                            <td>20276063</td>
-                        </tbody>
-                        <tbody>
-                            <td>Alamat</td>
-                            <td>:</td>
-                            <td>Jl Depok RT 02 RW 05, Kelurahan Sukamenak, Kecamatan Purbaratu, <br> Kota Tasikmalaya, Provinsi Jawabarat</td>
-                        </tbody>
-                        <tbody>
-                            <td>Telp/faks</td>
-                            <td>:</td>
-                            <td>(0265) 7528981</td>
-                        </tbody>
-                        <tbody>
-                            <td>Email</td>
-                            <td>:</td>
-                            <td>info@smkn4-tsm.sch.id</td>
-                        </tbody>
-                        <tbody>
-                            <td>Tahun Berdiri/Beroperasi</td>
-                            <td>:</td>
-                            <td>2010</td>
-                        </tbody>
-                        <tbody>
-                            <td>Nomor SK Pendirian</td>
-                            <td>:</td>
-                            <td>420/9/SK-BPPT/2012</td>
-                        </tbody>
-                        <tbody>
-                            <td>Tanggal SK Pendirian</td>
-                            <td>:</td>
-                            <td>06 Februari 2012</td>
-                        </tbody>
-                        <tbody>
-                            <td>Kepemilikan</td>
-                            <td>:</td>
-                            <td>Pemerintah Daerah</td>
-                        </tbody>
-                    </table>
-                <!-- </div> -->
+                <table class="table m-3">
+                    <tbody>
+                        <td>Nama Sekolah</td>
+                        <td>:</td>
+                        <td>SMK Negeri 4 Kota Tasikmalaya</td>
+                    </tbody>
+                    <tbody>
+                        <td>NPSN</td>
+                        <td>:</td>
+                        <td>20276063</td>
+                    </tbody>
+                    <tbody>
+                        <td>Alamat</td>
+                        <td>:</td>
+                        <td>Jl Depok RT 02 RW 05, Kelurahan Sukamenak, Kecamatan Purbaratu, <br> Kota Tasikmalaya, Provinsi Jawabarat</td>
+                    </tbody>
+                    <tbody>
+                        <td>Telp/faks</td>
+                        <td>:</td>
+                        <td>(0265) 7528981</td>
+                    </tbody>
+                    <tbody>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td>info@smkn4-tsm.sch.id</td>
+                    </tbody>
+                    <tbody>
+                        <td>Tahun Berdiri/Beroperasi</td>
+                        <td>:</td>
+                        <td>2010</td>
+                    </tbody>
+                    <tbody>
+                        <td>Nomor SK Pendirian</td>
+                        <td>:</td>
+                        <td>420/9/SK-BPPT/2012</td>
+                    </tbody>
+                    <tbody>
+                        <td>Tanggal SK Pendirian</td>
+                        <td>:</td>
+                        <td>06 Februari 2012</td>
+                    </tbody>
+                    <tbody>
+                        <td>Kepemilikan</td>
+                        <td>:</td>
+                        <td>Pemerintah Daerah</td>
+                    </tbody>
+                </table>
             </div>
     </div>
 

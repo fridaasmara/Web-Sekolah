@@ -53,31 +53,6 @@
     </nav>
 </template>
 
-<script setup>
-// let btnContainer = document.getElementById('navbarNav');
-// let btn = document.getElementByClassName('nav-link');
-
-// for (let i = 0 < btn.length; i++ ;) {
-//     btn[i].addEventListener('click', function() {
-//         let current = document.getElementsByClassName('active');
-//         current[0].className = current[0].className.replace( 'active');
-//         this.className += 'active';
-//     })
-// }
-
-// document.querySelectorAll(".nav-link").forEach((link) => {
-//   link.addEventListener("click", (e) => {
-//     // Remove active class from all links
-//     document.querySelectorAll(".nav-link").forEach((item) => {
-//       item.classList.remove("active");
-//     });
-
-//     // Add active class to the clicked link
-//     e.target.classList.add("active");
-//   });
-// });
-</script>
-
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
