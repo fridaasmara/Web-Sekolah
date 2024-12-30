@@ -9,7 +9,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <nuxt-link to="/" class="nav-link active" aria-current="page">Home</nuxt-link>
+                        <nuxt-link to="/" class="nav-link active" aria-current="page">Beranda</nuxt-link>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -20,9 +20,7 @@
                             <li><nuxt-link to="/profile/sejarah" class="dropdown-item">Sejarah</nuxt-link></li>
                             <li><nuxt-link to="/profile/visiMisi" class="dropdown-item">Visi & Misi</nuxt-link></li>
                             <li><nuxt-link to="/profile/kepalaSekolah" class="dropdown-item">Kepala Sekolah</nuxt-link></li>
-                            <li><nuxt-link to="/profile/strukturOrganisasi" class="dropdown-item">Struktur Organisasi</nuxt-link></li>
                             <li><nuxt-link to="/profile/guruStaf" class="dropdown-item">Guru & Staf</nuxt-link></li>
-                            <li><a class="dropdown-item">Data Statistik</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -39,11 +37,10 @@
                             Kesiswaan
                         </a>
                         <ul class="dropdown-menu">
-                            <li><nuxt-link to="/kesiswaan/rombel" class="dropdown-item">Rombongan Belajar</nuxt-link></li>
                             <li><nuxt-link to="/kesiswaan/organisasi" class="dropdown-item">Organisasi</nuxt-link></li>
-                            <li><nuxt-link to="/kesiswaan/ekskul" class="dropdown-item">Ekstrakurrikuler</nuxt-link></li>
+                            <li><nuxt-link to="/kesiswaan/ekskul" class="dropdown-item">Ekstrakurikuler</nuxt-link></li>
                         </ul>
-                    </li>
+                    </li> 
                     <li class="nav-item">
                         <nuxt-link to="/galeri" class="nav-link" aria-current="page">Galeri</nuxt-link>
                     </li>
@@ -102,10 +99,6 @@ h4 {
 
 .nav-link {
     color: #000;
-}
-
-.nav-link .active {
-    color: brown;
 }
 
 .dropdown-item {

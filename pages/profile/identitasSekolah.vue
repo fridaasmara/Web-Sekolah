@@ -2,9 +2,9 @@
     <div class="container">
         <h4 class="mt-5">Identitas <br> <span class="text-primary">Sekolah</span></h4>
             <div class="text-center">
-                <img src="~/assets/img/LOGO-SMK4.png" alt="logo" class="mt-5">
+                <img src="~/assets/img/LOGO-SMK4.png" alt="logo" class="mt-4">
             </div>
-            <div class="card shadow small mt-5">
+            <div class="card bg-light shadow rounded-4 mt-5">
                 <!-- <div class="table-responsive"> -->
                     <table class="table m-3">
                         <tbody>
@@ -72,7 +72,7 @@ img {
     width: 150px;
 }
 
-.small {
+.card {
     background-color: transparent;
     backdrop-filter: blur(20px);
     border: 2px solid #ffff;
@@ -85,11 +85,22 @@ td {
     padding-left: 60px;
 }
 
+@media only screen and (min-width: 600px) and (max-width: 890px) {
+    h4 {
+        margin-left: 30px;
+    }
+
+    td {
+        border-bottom: none;
+        padding-left: 30px;
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
     td {
-        font-size: small;
+        font-size: smaller;
         padding-left: 0;
-
     }
 
     h4 {

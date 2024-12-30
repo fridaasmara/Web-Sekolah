@@ -2,9 +2,9 @@
     <div class="container">
         <h4 class="mt-5">Identitas <br> <span class="text-primary"> Kepala Sekolah</span></h4>
         <div class="text-center">
-            <img src="~/assets/img/kepalasekolah.png" alt="logo" class="mt-5 bg-primary rounded shadow">
+            <img src="~/assets/img/kepalasekolah.png" alt="logo" class="mt-4 rounded-4 shadow">
         </div>
-        <div class="card shadow small mt-5">
+        <div class="card shadow bg-light rounded-4 mt-5">
             <!-- <div class="table-responsive"> -->
                 <table class="table m-3">
                     <tbody>
@@ -28,7 +28,7 @@
                         <td>821.2/Kep.373-BKD/2020</td>
                     </tbody>
                     <tbody>
-                        <td>Tanggal</td>
+                        <td>Tanggal Pengangkatan</td>
                         <td>:</td>
                         <td>10 Juli 2020</td>
                     </tbody>
@@ -37,12 +37,6 @@
         </div>
     </div>
 </template>
-
-Nama	:	
-NIP	:	
-Pangkat/Golongan	:	
-No SK Pengangkatan	:	
-Tanggal	:	
 
 <style scoped>
 h4, .table {
@@ -54,10 +48,11 @@ h4 {
 }
 
 img {
-    width: 200px;
+    width: 250px;
+    background-color: #1F60A0;
 }
 
-.small {
+.card {
     background-color: transparent;
     backdrop-filter: blur(20px);
     border: 2px solid #ffff;
@@ -70,9 +65,21 @@ td {
     padding-left: 60px;
 }
 
+@media only screen and (min-width: 600px) and (max-width: 890px) {
+    h4 {
+        margin-left: 30px;
+    }
+
+    td {
+        border-bottom: none;
+        padding-left: 30px;
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
     td {
-        font-size: small;
+        font-size: smaller;
         padding-left: 0;
 
     }

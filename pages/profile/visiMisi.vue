@@ -3,13 +3,13 @@
         <h4 class="mt-5">Visi & <br> <span class="text-primary">Misi</span></h4>
 
         <div class="mt-5">
-            <div class="card bg-light text-center rounded-4">
+            <div class="card card-visi bg-light text-center rounded-4">
                 <h5 class="fw-semibold mt-4">Visi</h5>
-                <p class="mt-4 mb-4 first">Terwujudnya lulusan yang Cerdas, Aktif, Kompetitif, Adaptif dan Produktif berlandaskan Iman dan Takwa <br> (CAKAP BERIMTAK)</p>
+                <p class="mt-3 mb-4 first">Terwujudnya lulusan yang Cerdas, Aktif, Kompetitif, Adaptif dan Produktif berlandaskan Iman dan Takwa <br> (CAKAP BERIMTAK)</p>
             </div>
             <div class="card bg-light mt-5 rounded-4">
                 <h5 class="fw-semibold text-center mt-4">Misi</h5>
-                <ul class="list-group mt-4 mb-4 second">
+                <ul class="list-group mt-3 mb-4 second">
                     <li class="list-group-item"><p>1. Menyiapkan Sumber Daya Manusia yang cerdas dan kompeten baik hardskill maupun softskill.</p></li>
                     <li class="list-group-item"><p>2. Meningkatkan dan mengembangkan aktifitas serta kreatifitas seluruh warga sekolah dalam berbagai kegiatan positif.</p></li>
                     <li class="list-group-item"><p>3. Mewujudkan manajemen pengelolaan yang efektif, efesien, transparan, akuntabel dan layanan prima.</p></li>
@@ -36,8 +36,16 @@ h4 {
 }
 
 .card {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid #ffff;
     width: 85%;
     margin: auto;
+}
+
+.card-visi {
+    background-color: #1F60A0 !important;
+    color: #ffff;
 }
 
 .list-group {
@@ -53,5 +61,26 @@ h4 {
 .first, .second {
     width: 85%;
     margin: auto;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 890px) {
+    h4 {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h4 {
+        margin-left: 35px;
+    }
+
+    p {
+        font-size: small;
+        margin-top: 10px !important;
+    }
+
+    .list-group-item p {
+        margin-top: 0 !important;
+    }
 }
 </style>
