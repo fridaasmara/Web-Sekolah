@@ -2,13 +2,13 @@
     <div class="container-fluid p-0">
 
         <!--Carousel-->
-        <div class="carousel p-3 diagonal-bg">
+        <div class="carousel p-3 diagonal-bg rounded-0 bg-light">
             <div class="row align-items-center">
-                <div class="col-6">
-                    <h1>SMK Negeri 4 Tasikmalya <br> <span class="pk fw-bold">Sekolah Pusat Keunggulan</span></h1>
+                <div class="col-6 col-md-8">
+                    <h1>SMK Negeri 4 Tasikmalya <br> <span class="pk fw-semibold">Sekolah Pusat Keunggulan</span></h1>
                     <nuxt-link to="/profile/identitasSekolah" class="btn btn-first shadow mb-3">Informasi Sekolah</nuxt-link>
                 </div>
-                <div class="col-6 text-end">
+                <div class="col-6 col-md-4 text-end">
                     <img src="../assets/img/student.png" alt="student" class="img-fluid">
                 </div>
             </div>
@@ -16,7 +16,7 @@
 
         <!--Data-->
             <div class="row data m-4 justify-content-center">
-                <div class="card card-data rounded-0 shadow col-md-2 col-3">
+                <div class="card card-data rounded-0 shadow col-md-2 col-3 rounded-start">
                     <div class="text-center m-3">
                         <i class="bi bi-person-workspace text-light fs-1"></i>
                         <p class="fs-5 fw-semibold text-light mt-2 mb-0 total">82 Orang</p>
@@ -37,7 +37,7 @@
                         <p class="text-light m-0 deskripsi">Staf TU</p>
                     </div>
                 </div>
-                <div class="card card-data rounded-0 shadow col-md-2 col-3">
+                <div class="card card-data rounded-0 shadow col-md-2 col-3 rounded-end">
                     <div class="text-center m-3">
                         <i class="bi bi-lightbulb text-light fs-1"></i>
                         <p class="fs-5 fw-semibold text-light mt-2 mb-0 total">18</p>
@@ -47,7 +47,7 @@
             </div>
 
         <!--Sambutan-->
-            <div class="card rounded-4 shadow bg-light">
+            <div class="card rounded-4 bg-light">
                 <div class="container mb-5">
                     <h4 class="mt-5">Sambutan <br> <span class="text-primary">Kepala Sekolah</span></h4>
                     <div class="row sambutan mt-4 justify-content-center">
@@ -76,8 +76,8 @@
                         <div class="card col-md-3 rounded-4">
                             <div class="card-body">
                                 <img src="../assets/img/jurusan/tjkt.png" alt="img" class="mt-5">
-                                <h5 class="fw-semibold">TJKT</h5>
-                                <p>Teknik Jaringan, Komputer dan Telekomunikasi</p>
+                                <h5 class="fw-semibold">TKJ</h5>
+                                <p>Teknik Komputer dan Jaringan</p>
                             </div>
                         </div>
                         <div class="card col-md-3 rounded-4">
@@ -90,8 +90,8 @@
                         <div class="card col-md-3 rounded-4">
                             <div class="card-body">
                                 <img src="../assets/img/jurusan/tbsm.png" alt="img" class="mt-5">
-                                <h5 class="fw-semibold">TBSM</h5>
-                                <p>Teknik dan Bisnis Sepeda Motor</p>
+                                <h5 class="fw-semibold">TSM</h5>
+                                <p>Teknik Sepeda Motor</p>
                             </div>
                         </div>
                     </div>
@@ -154,12 +154,16 @@
     </div>
 </template>
 
+<script setup>
+useHead({ title: "SMKN 4 Tasikmalaya" })
+
+</script>
+
 <style scoped>
 .diagonal-bg {
   position: relative;
   overflow: hidden;
   background: linear-gradient(to bottom right, transparent 50%, rgb(31, 96, 160) 50%);
-  border-radius: 10px; /* Opsional untuk sudut melengkung */
 }
 
 .diagonal-bg .row {
@@ -184,9 +188,7 @@
 
 
 .bg {
-    background-image: url('../assets/img/background-transformed.png');
-    background-position: center top;
-    background-repeat: no-repeat;
+    background: url('../assets/img/background.png') no-repeat center top fixed; 
     background-size: cover;
     position: relative;
     padding-top: 5rem;
@@ -194,7 +196,7 @@
 }
 
 .container {
-    padding-top: 0; /* Optional: Adjust padding if needed */
+    padding-top: 0; 
 }
 
 .col {
@@ -317,6 +319,10 @@ a {
 
 .pk {
     color: #1F60A0;
+}
+
+.text-primary {
+    color: #1F60A0 !important;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 890px) {

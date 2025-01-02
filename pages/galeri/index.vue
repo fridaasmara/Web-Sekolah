@@ -125,6 +125,12 @@
     </div>
 </template>
 
+<script setup>
+useHead({ title: "Galeri - SMKN 4 Tasikmalaya" })
+
+</script>
+
+
 <style scoped>
 h4, h5 {
     font-family: "Poppins", serif;
@@ -146,6 +152,7 @@ hr {
     width: 50%;
     margin: auto;
 }
+
 
 @media only screen and (min-width: 600px) and (max-width: 890px) {
     h4 {

@@ -33,6 +33,12 @@
     </div>
 </template>
 
+<script setup>
+useHead({ title: "Prestasi - SMKN 4 Tasikmalaya" })
+
+</script>
+
+
 <style scoped>
 .card-img-top {
     width: 100%;

@@ -3,11 +3,11 @@
         <h4 class="mt-5">Visi & <br> <span class="text-primary">Misi</span></h4>
 
         <div class="mt-5">
-            <div class="card card-visi bg-light text-center rounded-4">
+            <div class="card card-visi bg-light text-center rounded-4 shadow">
                 <h5 class="fw-semibold mt-4">Visi</h5>
                 <p class="mt-3 mb-4 first">Terwujudnya lulusan yang Cerdas, Aktif, Kompetitif, Adaptif dan Produktif berlandaskan Iman dan Takwa <br> (CAKAP BERIMTAK)</p>
             </div>
-            <div class="card bg-light mt-5 rounded-4">
+            <div class="card bg-light mt-5 rounded-4 shadow">
                 <h5 class="fw-semibold text-center mt-4">Misi</h5>
                 <ul class="list-group mt-3 mb-4 second">
                     <li class="list-group-item"><p>1. Menyiapkan Sumber Daya Manusia yang cerdas dan kompeten baik hardskill maupun softskill.</p></li>
@@ -25,6 +25,10 @@
     </div>
 </template>
 
+<script setup>
+useHead({ title: "Visi & Misi - SMKN 4 Tasikmalaya" })
+
+</script>
 
 <style scoped>
 h4, h5, p {
@@ -46,6 +50,7 @@ h4 {
 .card-visi {
     background-color: #1F60A0 !important;
     color: #ffff;
+    border: none;
 }
 
 .list-group {
@@ -61,6 +66,10 @@ h4 {
 .first, .second {
     width: 85%;
     margin: auto;
+}
+
+.text-primary {
+    color: #1F60A0 !important;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 890px) {

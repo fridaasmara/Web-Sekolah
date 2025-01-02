@@ -26,59 +26,12 @@
             <div class="card bg-light card-guru mt-5 rounded-4 shadow">
                 <h5 class="text-center mt-5">Daftar Guru / Pendidik</h5>
                 <div class="row mt-4 justify-content-center mb-5 m-4">
-                    <div class="col-md-4">
+                    <div v-for="(teacher, i) in teachers" :key="i" class="col-md-4 mt-4">
                         <div class="card card-data bg-light rounded-4 shadow">
                             <div class="card-body p-0 mb-3">
-                                <img src="~/assets/img/guru/pak-taufik.png" alt="img" class="card-img-top p-2 rounded-4">
-                                <h6 class="fw-semibold mt-3">Taufik Hidayat, S.Kom.</h6>
-                                <p>KK - Pengembangan Gim</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-data bg-light rounded-4 shadow">
-                            <div class="card-body p-0 mb-3">
-                                <img src="~/assets/img/guru/ibu-suminar.png" alt="img" class="card-img-top p-2 rounded-4">
-                                <h6 class="fw-semibold mt-3">Suminar, S.Kom, M.Kom.</h6>
-                                <p>PKK</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-data bg-light rounded-4 shadow">
-                            <div class="card-body p-0 mb-3">
-                                <img src="~/assets/img/guru/ibu-sri.png" alt="img" class="card-img-top p-2 rounded-4">
-                                <h6 class="fw-semibold mt-3">Hj. Sri Agustina, S.Pd., M.Pd.</h6>
-                                <p>Projek - IPAS</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-1 justify-content-center mb-5 m-4">
-                    <div class="col-md-4">
-                        <div class="card card-data bg-light rounded-4 shadow">
-                            <div class="card-body p-0 mb-3">
-                                <img src="~/assets/img/guru/ibu-tini.png" alt="img" class="card-img-top p-2 rounded-4">
-                                <h6 class="fw-semibold mt-3">R. Tini Gantini, S.H.</h6>
-                                <p>PPKn / Pendidikan Pancasila</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-data bg-light rounded-4 shadow">
-                            <div class="card-body p-0 mb-3">
-                                <img src="~/assets/img/guru/ibu-lisna.png" alt="img" class="card-img-top p-2 rounded-4">
-                                <h6 class="fw-semibold mt-3">Lisna Windi Nurhuda, S.Pd.</h6>
-                                <p>PJOK</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-data bg-light rounded-4 shadow">
-                            <div class="card-body p-0 mb-3">
-                                <img src="~/assets/img/guru/pak-deni.png" alt="img" class="card-img-top p-2 rounded-4">
-                                <h6 class="fw-semibold mt-3">Deni Maulana, S.T.</h6>
-                                <p>KK - Basisdata & PKK</p>
+                                <img :src="teacher.foto" alt="img" class="card-img-top p-2 rounded-4">
+                                <h6 class="fw-semibold mt-3">{{ teacher.nama }}</h6>
+                                <p>{{ teacher.mapel }}</p>
                             </div>
                         </div>
                     </div>
@@ -118,6 +71,30 @@
 
         </div>
 </template>
+
+<script setup>
+useHead({ title: "Guru & Staf - SMKN 4 Tasikmalaya" })
+
+const supabase = useSupabaseClient()
+const teachers = ref([])
+
+const getTeacher = async () => {
+    const { data, error } = await supabase.from('guru').select()
+    if (data) {
+        teachers.value = data
+        data.forEach(teacher => {
+        const { data } = supabase.storage.from('foto_guru').getPublicUrl(teacher.foto)
+        if(data) {
+            teacher.foto = data.publicUrl
+        }
+    })
+    }  
+}
+
+onMounted(() => {
+  getTeacher();
+});
+</script>
 
 <style scoped>
 h4, h5, h6, p {
@@ -182,11 +159,19 @@ h4 {
 
 .card-img-top {
     object-fit: cover; /* Menyesuaikan gambar dengan ukuran card */
-    object-position: center; /* Fokus gambar di tengah */
+    object-position: center; 
 }
 
 img {
     width: 100%;
+}
+
+.card-staf img {
+    width: 70%;
+}
+
+.text-primary {
+    color: #1F60A0 !important;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 890px) {

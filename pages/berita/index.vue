@@ -53,6 +53,12 @@
     </div>
 </template>
 
+<script setup>
+useHead({ title: "Berita - SMKN 4 Tasikmalaya" })
+
+</script>
+
+
 <style scoped>
 .card-img-top {
     width: 100%;
@@ -82,6 +88,7 @@ a {
     color: #000 !important;
     text-decoration: none;
 }
+
 
 @media only screen and (min-width: 600px) and (max-width: 890px) {
     h4, .text-artikel p {

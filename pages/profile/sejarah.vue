@@ -25,6 +25,11 @@
     </div>
 </template>
 
+<script setup>
+useHead({ title: "Sejarah - SMKN 4 Tasikmalaya" })
+
+</script>
+
 <style scoped>
 h4, h5, p {
     font-family: "Poppins", serif;
@@ -44,6 +49,10 @@ img {
     border: 2px solid #ffff;
     width: 85%;
     margin: auto;
+}
+
+.text-primary {
+    color: #1F60A0 !important;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 890px) {

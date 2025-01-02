@@ -142,6 +142,11 @@
     </div>
 </template>
 
+<script setup>
+useHead({ title: "Ekstrakurikuler - SMKN 4 Tasikmalaya" })
+
+</script>
+
 <style scoped>
 h4, h6, .btn {
     font-family: "Poppins", serif;
@@ -167,6 +172,10 @@ h4 {
 .card-img-top {
     width: 150px;
     margin: auto;
+}
+
+.text-primary {
+    color: #1F60A0 !important;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 890px) {

@@ -11,14 +11,18 @@
                     <div class="col-md-4">
                         <h5>Kontak</h5>
                         <hr>
-                        <div class="d-flex">
-                            <i class="bi bi-telephone"></i>                                
-                            <h6>0265312059</h6>
-                        </div>
-                        <div class="d-flex">
-                            <i class="bi bi-envelope"></i>
-                            <h6>info@smkn4-tsm.sch.id</h6>
-                        </div>
+                        <a href="tel:++62265312059">
+                            <div class="d-flex">
+                                <i class="bi bi-telephone"></i>                                
+                                <h6>0265312059</h6>
+                            </div>
+                        </a>
+                        <a href="mailto:info@smkn4-tsm.sch.id">
+                            <div class="d-flex">
+                                <i class="bi bi-envelope"></i>
+                                <h6>info@smkn4-tsm.sch.id</h6>
+                            </div>
+                        </a>
                         <h5 class="mt-5">Media <span class="text-primary">Sosial</span></h5> 
                         <hr>
                         <div class="d-flex sosmed">
@@ -92,6 +96,10 @@ i {
 a {
     color: #000 !important;
     text-decoration: none;
+}
+
+.text-primary {
+    color: #1F60A0 !important;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 890px) {

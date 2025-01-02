@@ -6,35 +6,43 @@
         </div>
         <div class="card shadow bg-light rounded-4 mt-5">
             <table class="table m-3">
-                <tbody>
-                    <td>Nama</td>
-                    <td>:</td>
-                    <td>Kurniawan, S.Pd, M.Pd.</td>
-                </tbody>
-                <tbody>
-                    <td>NIP</td>
-                    <td>:</td>
-                    <td>19720809 199702 1 002</td>
-                </tbody>
-                <tbody>
-                    <td>Pangkat/Golongan</td>
-                    <td>:</td>
-                    <td>Pembina IV/b</td>
-                </tbody>
-                <tbody>
-                    <td>No SK Pengangkatan</td>
-                    <td>:</td>
-                    <td>821.2/Kep.373-BKD/2020</td>
-                </tbody>
-                <tbody>
-                    <td>Tanggal Pengangkatan</td>
-                    <td>:</td>
-                    <td>10 Juli 2020</td>
+                <tbody>                    
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td>Kurniawan, S.Pd, M.Pd.</td>
+                    </tr>
+                    <tr>
+                        <td>NIP</td>
+                        <td>:</td>
+                        <td>19720809 199702 1 002</td>
+                    </tr>
+                    <tr>
+                        <td>Pangkat/Golongan</td>
+                        <td>:</td>
+                        <td>Pembina IV/b</td>
+                    </tr>
+                    <tr>
+                        <td>No SK Pengangkatan</td>
+                        <td>:</td>
+                        <td>821.2/Kep.373-BKD/2020</td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Pengangkatan</td>
+                        <td>:</td>
+                        <td>10 Juli 2020</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
     </div>
 </template>
+
+<script setup>
+useHead({ title: "Kepala Sekolah - SMKN 4 Tasikmalaya" })
+
+</script>
+
 
 <style scoped>
 h4, .table {
@@ -61,6 +69,10 @@ img {
 td {
     border-bottom: none;
     padding-left: 60px;
+}
+
+.text-primary {
+    color: #1F60A0 !important;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 890px) {

@@ -9,7 +9,7 @@
                             <img src="~/assets/img/jurusan/tjkt.png" alt="logo">
                         </div>
                         <div class="col-md-8">
-                            <h5 class="fw-semibold">Teknik Jaringan, Komputer dan Telekomunikasi (TJKT)</h5>
+                            <h5 class="fw-semibold">Teknik Komputer dan Jaringan (TKJ)</h5>
                             <p class="mt-4">Konsentrasi ini fokus pada perancangan, pengelolaan, dan pemeliharaan jaringan komputer serta teknologi telekomunikasi. Siswa dilatih untuk menguasai teknik instalasi jaringan, administrasi server, dan troubleshooting perangkat jaringan.</p>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                             <img src="~/assets/img/jurusan/tbsm.png" alt="logo">
                         </div>
                         <div class="col-md-8">
-                            <h5 class="fw-semibold">Teknik dan Bisnis Sepeda Motor (TBSM)</h5>
+                            <h5 class="fw-semibold">Teknik Sepeda Motor (TSM)</h5>
                             <p class="mt-4">Konsentrasi ini mengajarkan keterampilan teknis dalam perbaikan, perawatan, dan modifikasi sepeda motor, serta pengetahuan bisnis dan kewirausahaan di bidang otomotif roda dua.</p>
                         </div>
                     </div>
@@ -75,6 +75,11 @@
     </div>
 </template>
 
+<script setup>
+useHead({ title: "Konsentrasi Keahlian - SMKN 4 Tasikmalaya" })
+
+</script>
+
 <style scoped>
 h4, h5, p {
     font-family: "Poppins", serif;
@@ -101,12 +106,15 @@ p {
 }
 
 .bg {
-    background-image: url('~/assets/img/background2-transformed.png');
-    background-position: center top;
-    background-repeat: no-repeat;
+    background: url('~/assets/img/background2.png') no-repeat center top fixed; 
     background-size: cover;
     position: relative;
+    padding-top: 5rem;
     width: 100%;
+}
+
+.text-primary {
+    color: #1F60A0 !important;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 890px) {

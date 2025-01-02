@@ -1,8 +1,10 @@
 <template>
     <nav class="navbar navbar-expand-lg bg-light shadow p-3">
         <div class="container-fluid">
-            <img src="../assets/img/LOGO-SMK4.png" alt="logo" class="logo">
-            <h4 class="navbar-brand mt-2">SMKN 4 Tasikmalya</h4>
+            <nuxt-link to="/" class="d-flex tohome">
+                <img src="../assets/img/LOGO-SMK4.png" alt="logo" class="logo">
+                <h4 class="navbar-brand mt-2">SMKN 4 Tasikmalya</h4>
+            </nuxt-link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -78,6 +80,10 @@ h4 {
 
 .dropdown-item {
     font-size: 15px;
+}
+
+.tohome {
+    text-decoration: none !important;
 }
 
 @media only screen and (max-width: 600px) {
